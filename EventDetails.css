@@ -71,6 +71,8 @@
    ============================================ */
 * {
     box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
 }
 
 ul {
@@ -114,6 +116,7 @@ body {
 /* Navbar */
 header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -152,8 +155,9 @@ header {
 
 #login-btn,
 #sign-up-btn {
-    width: 70px;
+    width: 100px;
     padding: 5px 10px;
+    height: 40px;
     border-radius: 15px;
     text-decoration: none;
     text-align: center;
@@ -178,9 +182,10 @@ header {
     transform: scale(1.1);
 }
 
-.login-side {
+.profile-side {
     display: none;
 }
+
 
 /* Back Button */
 .back-btn {
@@ -707,4 +712,13 @@ section:hover {
         width: 100%;
 
     }
+
+    .login-side{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:15px;
+    }
+
 }
