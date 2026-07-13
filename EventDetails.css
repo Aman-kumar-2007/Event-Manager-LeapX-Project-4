@@ -1,9 +1,3 @@
-/* ============================================
-   FONTS
-   Sora = headings (rounded, geometric — matches
-   the pill buttons/badges already in this theme)
-   Inter = body text (clean, highly readable)
-   ============================================ */
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600&display=swap');
 
 :root {
